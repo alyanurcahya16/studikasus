@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tingi air</title>
+</head>
+<body>
+    
+    <script>
+        let Air = 500.0
+        let status ;    
+        
+        if(Air <= 500.0) {
+             status = "status: aman";
+        } else if(Air <= 600.0) {
+              status = "status: waspada";
+        } else if(Air <= 650.0) {
+             status = "status: siaga";
+        }else if(Air <= 650) {
+               status = "status: siaga";
+        } else {
+            status = "selesai"
+        }
+        console.log(Air)
+        console.log(status)
+        
+    </script>
+
+</body>
+</html>

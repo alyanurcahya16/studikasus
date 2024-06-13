@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    
+<script>
+    let sendok = 9000;
+    let garpu = 50000;
+    let piring = 100000;
+
+    let totalHarga = sendok + garpu + piring;
+
+    if (totalHarga > 100000) {
+        let diskon = 10/100 * totalHarga;
+        let setelahDiskon = totalHarga - diskon;
+        console.log("total belanjaan adalah" + totalHarga)
+        console.log("selamat anda dapat diskon")
+        console.log("jadi anda hanya membayar" + setelahDiskon) 
+    } else{
+        console.log("total harga yang harus di bayar adalah" + "" + setelahDiskon)
+        console.log("anda tidak dapat diskon")
+    }
+</script>
+
+<script>
+    let sendok = 9000;
+    let garpu = 50000;
+    let piring = 100000;
+
+    let totalHarga = sendok + garpu + piring;
+
+    if (totalHarga > 100000) {
+        let diskon = 10/100 * totalHarga;
+        let setelahDiskon = totalHarga - diskon;
+        console.log("total belanjaan" + totalHarga);
+        console.log("yang harus di bayar adalah" + setelahDiskon);
+    } else {
+        console.log("harga total barang" + totalHarga);
+        console.log("maaf tidak mendapat diskon")
+    }
+    </script>
+    
+
+    <script>
+        let sendok = 9000;
+        let garpu = 50000;
+        let piring = 100000;
+
+        let totalHarga = sendok + garpu + piring;
+        if(totalHarga > 100000) {
+            let diskon = 10/100 * totalHarga;
+            let setelahDiskon = totalHarga - diskon;
+            console.log("harga sebelum diskon: " + totalHarga);
+            console.log("harga setelah diskon " + setelahDiskon);
+        }else {
+            console.log("anda tidak dapat diskon");
+        }
+    </script> 
+</body>
+</html>
